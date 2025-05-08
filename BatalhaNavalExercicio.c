@@ -20,8 +20,11 @@ int main(){
         printf("%d\t", Linha[0]++);//definição de linhas
             
         for (int Y = 0; Y < 10; Y++){
-            if (((X == 0) && (Y == 3))||((X == 0) && (Y == 4))||
-                ((X == 0) && (Y == 5))||((X == 8) && (Y == 2))||//Comparação(Escolha do lugar dos navios)
+            if (((X == 9) && (Y == 6))||((X == 8) && (Y == 7))||
+                ((X == 7) && (Y == 8))||((X == 2) && (Y == 7))||//Comparação(Escolha do lugar dos navios)
+                ((X == 3) && (Y == 8))||((X == 4) && (Y == 9))||
+                ((X == 0) && (Y == 3))||((X == 0) && (Y == 4))||
+                ((X == 0) && (Y == 5))||((X == 8) && (Y == 2))||
                 ((X == 7) && (Y == 2))||((X == 6) && (Y == 2))){
                     printf("%d\t", N);} else {
                  
